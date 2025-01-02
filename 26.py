@@ -23,14 +23,17 @@ def ontTick():
         exchange.SetDirection('closebuy')
         exchange.Sell(last_close - 1, 1)
         mp = 0
+
     if mp == -1 and dif > dea:
         exchange.SetDirection("closesell")
         exchange.Buy(last_close, 1)
         mp = 0
+
     if mp == 0 and dif > dea:
         exchange.SetDirection("buy")
         exchange.Buy(last_close, 1)
         mp = 1
+
     if mp == 0 and dif < dea:
         exchange.SetDirection("sell")
         exchange.Sell(last_close - 1, 1)
@@ -47,7 +50,3 @@ try:
     main()
 except:
     task.Show()
-
-
-
-    

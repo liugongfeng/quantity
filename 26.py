@@ -4,7 +4,7 @@ end: 2024-12-31 15:00:00
 period: 1d
 basePeriod: 1d
 slipPoint: 2
-exchanges: [{"eid":"Futures_CTP","currency":"FUTURES"},{"eid":"Futures_CTP","currency":"FUTURES"}]
+exchanges: [{"eid":"Futures_CTP","currency":"FUTURES"}]
 '''
 
 from fmz import *

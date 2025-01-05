@@ -1,6 +1,6 @@
 '''backtest
 start: 2019-01-01 00:00:00
-end: 2024-12-18 15:00:00
+end: 2021-01-01 00:00:00
 period: 1d
 basePeriod: 1d
 balance: 10000

@@ -2,7 +2,7 @@
 start: 2019-01-01 00:00:00
 end: 2021-01-01 00:00:00
 period: 1d
-basePeriod: 1e
+basePeriod: 1d
 slipPoint: 2
 exchanges: [{"eid":"Futures_CTP","currency":"FUTURES","balance":100000}]
 '''
